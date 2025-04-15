@@ -76,7 +76,7 @@ pipeline {
                 echo 'Applying Terraform changes...'
                  sh '''
                       
-                      terraform destroy -auto-approve tfplan
+                      terraform destroy -auto-approve
                     '''
             }
         }
