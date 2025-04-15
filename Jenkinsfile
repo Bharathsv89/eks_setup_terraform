@@ -70,7 +70,7 @@ pipeline {
             }
         }
 
-        stage('Terraform Apply') {
+        stage('Terraform destory') {
             steps {
                 // Apply Terraform changes
                 echo 'Applying Terraform changes...'
