@@ -12,7 +12,7 @@ pipeline {
         stage('CLONE SCM') {
             steps {
                 echo 'Cloning code from GitHub...'
-                git branch: 'main', url: 'https://github.com/adarsh0331/ultimate-devops-project-aws.git'
+                git branch: 'main', url: 'https://github.com/Bharathsv89/eks_setup_terraform.git'
             }
         }
 
